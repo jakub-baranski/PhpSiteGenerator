@@ -1,0 +1,15 @@
+
+.my-page-heading{
+    padding: 100px;
+    background-color: gray;
+    color: white;
+    height: 150px;
+}
+
+.my-content{
+    background-color: lightgray;
+}
+
+.footer{
+    background-color: gray;
+}

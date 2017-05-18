@@ -1,0 +1,295 @@
+html{
+    display: block;
+}
+body{
+    margin: 0;
+    padding-top: 50px;
+    min-height: 100%;
+    position: relative;
+    background-color: #9bb3bf;
+}
+
+p{
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+}
+
+.home{
+    min-height: 800px;
+}
+.home .img-responsive{
+    margin: 0 auto;
+}
+
+a:visited, a:hover{
+    text-decoration: none;
+}
+
+.logo{
+    width: 20px; 
+    height: 20px;
+}
+/*header.php*/
+.my-page-heading{ 
+    background:
+        linear-gradient(27deg, #151535 5px, transparent 5px) 0 5px, linear-gradient(207deg, #010108 5px, transparent 5px) 10px 0px, linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px, linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px, linear-gradient(90deg, #031225 10px, transparent 10px), linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #020202 50%, transparent 50%, transparent 75%, #242424 75%, #060d3e);
+    background-color: #132231;
+    background-size: 20px 20px;
+    height: 200px;
+    position: relative;
+    padding: 30px 15px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.navbar-default {
+    background-color: #263238;;
+    border-color: #000000;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #c1c1c1;
+    font-family: 'Ranchers', cursive;
+    text-shadow: 1px 1px black;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: whitesmoke;
+}
+/*header*/
+.label-beta{
+    background-color: #9bb3bf;
+}
+.my-page-heading{
+    margin-bottom: 50px;
+}
+.my-page-heading h1{
+
+    font-size: 35pt;
+    color: white;
+    margin-top: 0;
+}
+
+.my-page-heading p{
+    font-size: 20pt;
+}
+
+/*code.php*/
+
+.my-content{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.my-content .thumbnail{
+    position: relative;
+}
+
+.my-content .thumbnail:hover{
+    border: solid 1px rgba(90, 90, 90, 0.69);
+    background-color: rgba(2, 66, 140, 0.3);
+}
+
+/*footer.php*/
+
+.footer{
+    background-color: #121921;
+    height: 250px;
+    margin-top: 50px;
+
+}
+.my-footer-container{
+    padding: 40px 35px;
+}
+.my-footer-container ul{
+    padding: 0;
+    list-style: none;
+}
+.my-footer-container li{
+    display: inline-block;
+    padding: 10px;
+}
+.my-footer-container p{
+    color: #86909c;
+    padding: 10px;
+}
+.my-footer-container a{
+    color: #7692b7;
+}
+
+/*contact modal*/
+.my-modal-close{
+    color: white;
+}
+.modal-header{
+    background-color: #263238;
+    color: #CFD8DC;
+}
+.modal-body{
+    background-color: #CFD8DC;
+}
+.modal-body .form-control {
+    border-color: #263238;
+}
+.modal-body .form-control:focus{
+    border-color: rgba(160, 160, 160, 0.9);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(160, 160, 160, 0.65);
+}
+
+.modal-body .btn{
+    background-color: #121921;
+    border: none;
+}
+.modal-body .btn:hover{
+    background-color: #86909c;
+}
+/*CV*/
+.my_cv_container{
+    padding: 0 0;
+}
+
+.main_section{
+    padding: 100px 10px 100px 10px;
+    vertical-align: middle;
+}
+
+
+.bg{
+    height: 550px; 
+    position: relative;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+.bg_main{
+    height: 700px;
+    padding-top: 120px;
+}
+
+.bg_light{
+    color: #263238;
+    font-weight: bold;
+}
+
+.bg_dark{
+    color: #CFD8DC;
+    background-color: #263238;
+}
+
+.my_cv_container h1{
+    font-family: 'Londrina Solid', cursive;
+    letter-spacing: .3em;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+.my_cv_container p{
+    font-size: 35px;
+    margin-left: 30px;
+}
+.my_cv_container h2{
+    font-family: 'Londrina Solid', cursive;
+    font-size: 40px;
+}
+.my_cv_container{
+    position: relative;
+}
+
+.my_cv_container h1::after{
+    content: "";
+    margin-top: 15px;
+    display: block;
+    background-color: #CFD8DC;
+    width: 70vw;
+    height: 4px;
+}
+
+
+.section_content{
+    padding: 50px 10px 100px 10px;
+
+}
+
+.my_cv_container .iconrow{
+    text-align: center;
+    font-size: 25pt;
+
+}
+
+.my_progress_bar{
+    background-color: #9bb3bf; 
+}
+
+/*GENERATOR*/
+.synonimizer {
+    padding: 15px;  
+}
+.jumbotron{
+    background-color: #263238;
+    color: #CFD8DC;
+}
+#generateBtn{
+    margin-right: 20px;
+}
+#settings input{
+    width: 20px;
+}
+/*WiP*/
+.preview {
+    display: none;
+    height: 100px;
+    background-color: red;
+}
+
+.preview1{
+    background-color: #6d695c;
+    background-image:
+        repeating-linear-gradient(120deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+        repeating-linear-gradient(60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+        linear-gradient(60deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1)),
+        linear-gradient(120deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1));
+    background-size: 70px 120px;
+}
+
+.preview2{
+    background-color:#556;
+    background-image: linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+        linear-gradient(150deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+        linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+        linear-gradient(150deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+        linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a), 
+        linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a);
+    background-size:80px 140px;
+    background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+}
+
+.preview3{
+    background-color: hsl(2, 57%, 40%);
+    background-image: repeating-linear-gradient(transparent, transparent 50px, rgba(0,0,0,.4) 50px, rgba(0,0,0,.4) 53px, transparent 53px, transparent 63px, rgba(0,0,0,.4) 63px, rgba(0,0,0,.4) 66px, transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px, rgba(0,0,0,.5) 166px, rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px, rgba(0,0,0,.5) 179px, rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px, rgba(0,0,0,.5) 232px, transparent 232px),
+        repeating-linear-gradient(270deg, transparent, transparent 50px, rgba(0,0,0,.4) 50px, rgba(0,0,0,.4) 53px, transparent 53px, transparent 63px, rgba(0,0,0,.4) 63px, rgba(0,0,0,.4) 66px, transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px, rgba(0,0,0,.5) 166px, rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px, rgba(0,0,0,.5) 179px, rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px, rgba(0,0,0,.5) 232px, transparent 232px),
+        repeating-linear-gradient(125deg, transparent, transparent 2px, rgba(0,0,0,.2) 2px, rgba(0,0,0,.2) 3px, transparent 3px, transparent 5px, rgba(0,0,0,.2) 5px);
+}
+/*media queries*/
+
+@media only screen and (max-width: 750px){
+    .my-page-heading h1{
+        font-size: 25pt;
+    }
+    .my-page-heading p{
+        font-size: 15pt;
+    } 
+    .bg{
+        padding: 0;
+        padding-left: 10px;
+    }
+
+    .bg_main{
+        height: 400px;
+    }
+
+    .my_cv_container h1{
+        font-size: 25px;
+    }
+    .my_cv_container p{
+        font-size: 20px;
+    }
+
+}
